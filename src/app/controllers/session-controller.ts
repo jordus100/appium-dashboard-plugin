@@ -37,6 +37,7 @@ export class SessionController extends BaseController {
           [Op.and]: filters,
         },
         order: [["start_time", "DESC"]],
+        limit: 50
       })
     );
   }
