@@ -74,3 +74,11 @@ NOTE: This plugin is still in beta phase and heavy testing is being done to elim
 | dashboard:name                 | string  | Custom name for the session                                                                           | `{"dashboard:name" : Sample login test }` |
 | dashboard:enableLiveVideo      | boolean | if `true` live video of the execution will be streamed from the dashboard                             | defaults to `true`                        |
 | dashboard:enableVideoRecording | boolean | if `true`, video recording of the session can be viewd from the dashboard after the session is killed | defaults to `true`                        |
+
+
+## Building
+
+- Use Node 16
+- Use NPM, not yarn
+- First build the plugin by running `npm install` in the top directory
+- For building the frontend, use `scripts/build_web.sh`
