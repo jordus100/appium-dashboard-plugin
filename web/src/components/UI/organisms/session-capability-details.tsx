@@ -17,7 +17,7 @@ const TabChildContainer = styled.div<{
 
   @media (max-width: ${(props) => props.responsiveWidth}px) {
     height: 100%;
-  } ;
+  }
 `;
 
 const Entry = styled.div`

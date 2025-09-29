@@ -224,7 +224,11 @@ export default function SessionDetails() {
           <HEADER>
             <ParallelLayout>
               <Column grid={10}>
-                <Name>{session.name || session.session_id}</Name>
+                <Name>
+                  {session.capabilities["smart:testName"] ||
+                    session.name ||
+                    session.session_id}
+                </Name>
               </Column>
               <Column grid={2}>
                 <SessionMenuItems

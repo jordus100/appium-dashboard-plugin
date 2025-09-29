@@ -9,7 +9,9 @@ import Icon, { Sizes } from "../atoms/icon";
 
 const Container = styled.div<{ height: string }>`
   height: ${(props) => props.height};
-  transition: height 1s 0.1s ease-in-out, opacity 2s ease-in-out;
+  transition:
+    height 1s 0.1s ease-in-out,
+    opacity 2s ease-in-out;
   overflow: hidden;
   position: relative;
   padding: 10px 0 10px 0;
