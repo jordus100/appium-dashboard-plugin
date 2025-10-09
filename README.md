@@ -81,4 +81,5 @@ NOTE: This plugin is still in beta phase and heavy testing is being done to elim
 - Use Node 16
 - Use NPM, not yarn
 - First build the plugin by running `npm install` in the top directory
-- For building the frontend, use `scripts/build_web.sh`
+- Then run `npm install` in the `web` directory
+- Build the frontend: `cd scripts && ./build_web.sh`
